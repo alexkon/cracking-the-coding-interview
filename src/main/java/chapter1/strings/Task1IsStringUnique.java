@@ -36,7 +36,6 @@ public class Task1IsStringUnique {
         int bitChecker = 0;
         for (int i = 0; i < string.length(); i++) {
             int ch = string.charAt(i) - 'a';
-            System.out.println("ch = " + ch);
             if (ch < 0  || ch > 25) {
                 System.err.println("Unexpected symbol: " + ch);
                 return false;
