@@ -30,19 +30,4 @@ public class Task7IsPalindromeIterative {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        LinkedListNode node1 = new LinkedListNode(0, null);
-        LinkedListNode node2 = new LinkedListNode(1, node1);
-        LinkedListNode node3 = new LinkedListNode(2, node2);
-        LinkedListNode node4 = new LinkedListNode(3, node3);
-        LinkedListNode node5 = new LinkedListNode(2, node4);
-        LinkedListNode node6 = new LinkedListNode(1, node5);
-        LinkedListNode node7 = new LinkedListNode(0, node6);
-
-        LinkedListNode head = node7;
-
-        System.out.println("Is Palindrome: " + new Task7IsPalindromeIterative().isPalindrome(node7));
-
-    }
 }

@@ -26,7 +26,7 @@ public class Task7IsPalindromRecurse {
         return r.result;
     }
 
-    private static int listSize(LinkedListNode head) {
+    static int listSize(LinkedListNode head) {
         int i = 0;
         while (head != null) {
             i++;
@@ -35,21 +35,6 @@ public class Task7IsPalindromRecurse {
         return i;
     }
 
-    public static void main(String[] args) {
-        LinkedListNode node1 = new LinkedListNode(0, null);
-        LinkedListNode node2 = new LinkedListNode(1, node1);
-        LinkedListNode node3 = new LinkedListNode(2, node2);
-        LinkedListNode node4 = new LinkedListNode(3, node3);
-        LinkedListNode node5 = new LinkedListNode(2, node4);
-        LinkedListNode node6 = new LinkedListNode(1, node5);
-        LinkedListNode node7 = new LinkedListNode(0, node6);
-
-        LinkedListNode head = node7;
-
-        System.out.println("Size of list: " + listSize(head));
-        System.out.println("Is Palindrome: " + new Task7IsPalindromRecurse().isPalindrome(head));
-
-    }
 }
 
 class Result {
