@@ -1,5 +1,6 @@
-package chapter3.stacks.and.queues;
+package chapter3.stacks.and.queues.task4;
 
+import chapter3.stacks.and.queues.Stack;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

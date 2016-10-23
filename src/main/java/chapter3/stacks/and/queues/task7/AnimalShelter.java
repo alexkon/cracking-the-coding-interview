@@ -1,10 +1,8 @@
-package chapter3.stacks.and.queues;
+package chapter3.stacks.and.queues.task7;
 
 import java.util.LinkedList;
 
-public class Task7AnimalShelter {}
-
-class AnimalShelter {
+public class AnimalShelter {
     private int order = 0;
     private LinkedList<Dog> dogs = new LinkedList<>();
     private LinkedList<Cat> cats = new LinkedList<>();

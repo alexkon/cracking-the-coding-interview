@@ -1,6 +1,8 @@
-package chapter2.linked.lists;
+package chapter2.linked.lists.task7;
 
-public class Task7IsPalindromRecurse {
+import chapter2.linked.lists.LinkedListNode;
+
+public class IsPalindromRecurse {
 
     Result isPalindromeRecurse(LinkedListNode head, int length) {
         if (head == null || length == 0) {

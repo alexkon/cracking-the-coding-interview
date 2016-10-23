@@ -1,11 +1,14 @@
-package chapter2.linked.lists;
+package chapter2.linked.lists.task7;
 
-
+import chapter2.linked.lists.LinkedListNode;
+import chapter2.linked.lists.task7.IsPalindromeIterative;
 import org.junit.Test;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.CoreMatchers.*;
 
-public class Task7IsPalindromRecurseTest {
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+public class IsPalindromeIterativeTest {
 
     @Test
     public void testIsPalindromeMethod() {
@@ -19,7 +22,7 @@ public class Task7IsPalindromRecurseTest {
 
         LinkedListNode head = node7;
 
-        Task7IsPalindromRecurse palindromeUtil = new Task7IsPalindromRecurse();
+        IsPalindromeIterative palindromeUtil = new IsPalindromeIterative();
 
         // test good palindrome Linked List
         assertThat(palindromeUtil.isPalindrome(head), is(true));
@@ -33,21 +36,4 @@ public class Task7IsPalindromRecurseTest {
         // test empty Linked List
         assertThat(palindromeUtil.isPalindrome(null), is(true));
     }
-
-    @Test
-    public void testListSizeMethod() {
-        LinkedListNode node1 = new LinkedListNode(0, null);
-        LinkedListNode node2 = new LinkedListNode(1, node1);
-        LinkedListNode node3 = new LinkedListNode(2, node2);
-
-        // test normal Linked List
-        assertThat(Task7IsPalindromRecurse.listSize(node3), is(3));
-
-        // test one node Linked List
-        assertThat(Task7IsPalindromRecurse.listSize(node1), is(1));
-
-        // test empty Linked List
-        assertThat(Task7IsPalindromRecurse.listSize(null), is(0));
-    }
-
 }

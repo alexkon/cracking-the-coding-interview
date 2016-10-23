@@ -1,11 +1,14 @@
-package chapter3.stacks.and.queues;
+package chapter3.stacks.and.queues.task7;
 
+import chapter3.stacks.and.queues.task7.AnimalShelter;
+import chapter3.stacks.and.queues.task7.Cat;
+import chapter3.stacks.and.queues.task7.Dog;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Task7AnimalShelterTest {
+public class AnimalShelterTest {
 
     @Test
     public void AnimalShelterTest() {

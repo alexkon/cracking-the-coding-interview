@@ -1,8 +1,8 @@
-package chapter3.stacks.and.queues;
+package chapter3.stacks.and.queues.task4;
 
 import java.util.Stack;
 
-public class Task4TowersOfHanoi {
+public class TowersOfHanoi {
     public static void main(String[] args) {
         int n = 3;
         Tower[] towers = new Tower[3];

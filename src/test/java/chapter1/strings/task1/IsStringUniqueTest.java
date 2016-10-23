@@ -1,16 +1,17 @@
-package chapter1.strings;
+package chapter1.strings.task1;
 
 import org.junit.Test;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Task1IsStringUniqueTest {
+public class IsStringUniqueTest {
 
     @Test
     public void testIsUniqueWithSetMethod() {
 
-        Task1IsStringUnique uniqueUtil = new Task1IsStringUnique();
+        IsStringUnique uniqueUtil = new IsStringUnique();
 
         // test normal string
         assertThat(uniqueUtil.isUniqueWithSet("abcdef"), is(true));
@@ -31,7 +32,7 @@ public class Task1IsStringUniqueTest {
     @Test
     public void testIsUniqueWithSortMethod() {
 
-        Task1IsStringUnique uniqueUtil = new Task1IsStringUnique();
+        IsStringUnique uniqueUtil = new IsStringUnique();
 
         // test normal string
         assertThat(uniqueUtil.isUniqueWithSort("abcdef"), is(true));
@@ -52,7 +53,7 @@ public class Task1IsStringUniqueTest {
     @Test
     public void testIsUniqueWithAsciiMethod() {
 
-        Task1IsStringUnique uniqueUtil = new Task1IsStringUnique();
+        IsStringUnique uniqueUtil = new IsStringUnique();
 
         // test normal string
         assertThat(uniqueUtil.isUniqueWithAscii("abcdef"), is(true));

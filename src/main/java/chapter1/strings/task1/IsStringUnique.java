@@ -1,10 +1,10 @@
-package chapter1.strings;
+package chapter1.strings.task1;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Task1IsStringUnique {
+public class IsStringUnique {
 
     public boolean isUniqueWithSet(String string) {
         if (string == null || string.length() == 0) return true;
@@ -47,6 +47,6 @@ public class Task1IsStringUnique {
     }
 
     public static void main(String[] args) {
-        new Task1IsStringUnique().isUniqueWithAscii("abc");
+        new IsStringUnique().isUniqueWithAscii("abc");
     }
 }

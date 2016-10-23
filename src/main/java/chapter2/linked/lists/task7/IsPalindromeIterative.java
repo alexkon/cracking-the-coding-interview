@@ -1,8 +1,10 @@
-package chapter2.linked.lists;
+package chapter2.linked.lists.task7;
+
+import chapter2.linked.lists.LinkedListNode;
 
 import java.util.Stack;
 
-public class Task7IsPalindromeIterative {
+public class IsPalindromeIterative {
 
     public boolean isPalindrome(LinkedListNode head) {
         LinkedListNode fast = head;
