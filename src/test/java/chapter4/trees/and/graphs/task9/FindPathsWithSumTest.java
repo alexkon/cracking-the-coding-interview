@@ -1,5 +1,6 @@
 package chapter4.trees.and.graphs.task9;
 
+import chapter4.trees.and.graphs.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 

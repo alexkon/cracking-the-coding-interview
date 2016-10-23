@@ -1,5 +1,7 @@
 package chapter4.trees.and.graphs.task9;
 
+import chapter4.trees.and.graphs.TreeNode;
+
 public class FindPathsWithSum {
 
     private static void findSum(TreeNode node, int sum, int[] path, int level) {
@@ -45,12 +47,3 @@ public class FindPathsWithSum {
     }
 }
 
-class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int v) {
-        this.data = v;
-    }
-}
