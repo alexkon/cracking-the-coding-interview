@@ -8,5 +8,5 @@
 
 ### 3) Analyze Relationships
 
-### 4) Inverstigate Actions
+### 4) Investigate Actions
 
