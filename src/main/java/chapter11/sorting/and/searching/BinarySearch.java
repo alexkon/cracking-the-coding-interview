@@ -8,14 +8,12 @@ public class BinarySearch {
 
         int mid = (low + high) / 2;
         if (a[mid] < x) {
-            binarySearchRecursive(a, x, mid + 1, high);
+            return binarySearchRecursive(a, x, mid + 1, high);
         } else if (a[mid] > x) {
-            binarySearchRecursive(a, x, low, mid - 1);
+            return binarySearchRecursive(a, x, low, mid - 1);
         } else {
             return mid;
         }
-
-        return - 1;
     }
 
     public static int binarySearchRecursiveClosest(int[] a, int x, int low, int high) {
@@ -31,14 +29,12 @@ public class BinarySearch {
 
         int mid = (low + high) / 2;
         if (a[mid] < x) {
-            binarySearchRecursive(a, x, mid + 1, high);
+            return binarySearchRecursive(a, x, mid + 1, high);
         } else if (a[mid] > x) {
-            binarySearchRecursive(a, x, low, mid - 1);
+            return binarySearchRecursive(a, x, low, mid - 1);
         } else {
             return mid;
         }
-
-        return - 1;
     }
 
     public static int binarySearch(int[] array, int x) {
