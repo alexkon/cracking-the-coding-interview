@@ -14,7 +14,7 @@ public class RecursionFibonacci {
 
     private static int fibonacci(int n) {
         if (n < 0) {
-            System.err.println("n should be greater than 0");
+            System.err.println("n should be greater or equals than 0");
             return -1;
         }
         if (n == 0) return 0;
