@@ -1,4 +1,4 @@
-# Mathmatics and Probability
+# Mathematics and Probability
 
 ## Mathematics
 
